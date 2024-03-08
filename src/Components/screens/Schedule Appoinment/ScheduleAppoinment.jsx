@@ -1,11 +1,6 @@
 import React from "react";
-import AccountCircle from "@mui/icons-material/AccountCircle";
 import { Button, Grid } from "@mui/material";
 import Box from "@mui/material/Box";
-import Checkbox from "@mui/material/Checkbox";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import FormGroup from "@mui/material/FormGroup";
-import TextField from "@mui/material/TextField";
 import TableComponenet from "../../common/TableComponenet";
 
 const ScheduleAppoinment = () => {
