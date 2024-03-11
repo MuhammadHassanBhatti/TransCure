@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const LabResults = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div>Lab Results</div>;
+};
 
-export default LabResults
+export default LabResults;
