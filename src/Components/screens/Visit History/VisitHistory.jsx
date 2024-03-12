@@ -55,7 +55,7 @@ export default function VisitHistory() {
   };
 
   return (
-    <Box sx={{ bgcolor: "background.paper"}}>
+    <Box sx={{ bgcolor: "background.paper" }}>
       <AppBar position="static">
         <Tabs
           value={value}
@@ -68,7 +68,6 @@ export default function VisitHistory() {
           <Tab label="Doctors History" {...a11yProps(0)} />
           <Tab label="Patients History" {...a11yProps(1)} />
           <Tab label="Appointments History" {...a11yProps(2)} />
-          
         </Tabs>
       </AppBar>
       <SwipeableViews
