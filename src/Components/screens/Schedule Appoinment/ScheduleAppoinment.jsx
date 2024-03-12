@@ -32,7 +32,7 @@ const ScheduleAppoinment = () => {
         >
           <h2 style={{ marginTop: 0 }}>Book an Appointment</h2>
           <Button
-            style={{ marginBottom: "10px" }}
+            style={{ marginBottom: "10px",backgroundColor:"#842d73" }}
             variant="contained"
             onClick={handleOpen}
           >
