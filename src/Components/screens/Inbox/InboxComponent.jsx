@@ -9,6 +9,7 @@ import View5 from "../../../assets/images/View5.avif";
 import View6 from "../../../assets/images/View6.avif";
 import View7 from "../../../assets/images/View7.avif";
 import { Grid } from "@mui/material";
+import Counter from "../../../features/counter/Counter";
 
 const InboxComponent = () => {
   const CardData = [
@@ -79,19 +80,22 @@ const InboxComponent = () => {
   ];
 
   return (
-    <Grid container spacing={2}>
-      {CardData.map((card, index) => (
-        <Grid item key={index} xs={12} sm={6} md={4} lg={3}>
-          <Card
-            title={card.title}
-            avatarText={card.avatarText}
-            subheader={card.subheader}
-            image={card.image}
-            description={card.description}
-          />
-        </Grid>
-      ))}
-    </Grid>
+    <>
+      <Grid container spacing={2}>
+        {CardData.map((card, index) => (
+          <Grid item key={index} xs={12} sm={6} md={4} lg={3}>
+            <Card
+              title={card.title}
+              avatarText={card.avatarText}
+              subheader={card.subheader}
+              image={card.image}
+              description={card.description}
+            />
+          </Grid>
+        ))}
+      </Grid>
+      <Counter />
+    </>
   );
 };
 
